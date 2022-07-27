@@ -2,8 +2,9 @@ import { st, classes } from './some-comp.st.css';
 
 interface SomeCompProps {
     className?: string;
+    content: string;
 }
 
-export const SomeComp: React.FC<SomeCompProps> = ({ className }) => {
-    return <div className={st(classes.root, className)}>SomeComp</div>;
+export const SomeComp: React.FC<SomeCompProps> = ({ className, content }) => {
+    return <div className={st(classes.root, className)}>{content}</div>;
 };
