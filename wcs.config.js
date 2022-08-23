@@ -6,9 +6,9 @@ module.exports = {
 
     newComponent: {
         /* This path is required to create new components through WCS. */
-        componentsPath: 'src',
+        componentsPath: 'src/components',
         /* This path is only required when using custom templates. */
-        templatesPath: 'src/wcs-component-templates',
+        templatesPath: 'src/_wcs/component-templates',
     },
 
     /**
@@ -26,7 +26,7 @@ module.exports = {
      * Refer to https://component-studio.wixanswers.com/en/article/kb14533 for more information.
      */
 
-    boardGlobalSetup: './src/boards-global-setup.ts',
+    boardGlobalSetup: './src/_wcs/boards-global-setup.ts',
 
     /**
      * Configures scripts for project users to run from WCS (triggerable and on demand).
