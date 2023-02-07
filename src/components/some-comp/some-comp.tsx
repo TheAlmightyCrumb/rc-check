@@ -6,5 +6,5 @@ interface SomeCompProps {
 }
 
 export const SomeComp: React.FC<SomeCompProps> = ({ className, content }) => {
-    return <div className={st(classes.root, className)}>{content}</div>;
+    return <div className={st(classes.root, className, classes.root)}>{content}</div>;
 };
