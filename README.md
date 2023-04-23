@@ -2,7 +2,7 @@
 
 👋🏼 Hello World!
 
-This README.md is made and published to Github from within WCS.
+This README.md is made and published to Github from within Codux.
 
 Here's a nostalgic photo:
 
